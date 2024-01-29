@@ -132,7 +132,7 @@ h2{
 }
 .dialogbox{
     position: absolute;
-    top: 58%;
+    bottom: 42%;
     left: 81%;
     z-index: 0;
 }
@@ -151,6 +151,14 @@ h2{
     bottom:12%;
     left:2%;
 
+}
+
+.textcolor span {
+    color: #47C74F;
+    font-size: 1.4vw;
+    font-family: 'Cascadia Code', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
 }
 
 .about{
@@ -361,29 +369,13 @@ button:hover{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    font-family: 'Cascadia Code', sans-serif;
+    background-color:#4DDA56;
+    text-align:center;
+    padding: 8px;
+    border-top: 3px solid #ffffff;
+}
 
 
 @media (max-width: 768px) {
@@ -394,17 +386,179 @@ button:hover{
         margin-bottom:10%;
         flex-direction:column;
     }
+
+    .home{
+        height:100vw;
+        width:100%;
+        align-items:flex-start
+    }
+    .rectangle{
+        position: absolute;
+        background-color: #4DDA56;
+        left: 0%;
+        top: 70%;
+        width: 100%;
+        height: 30%;
+        z-index: 0;
+    }
+
+    .mascot{
+        left: 40%;
+        z-index: 1;
+    }
+
+    .mascot img {
+        height: 60vw;
+        width: 60vw;
+    }
+
+    .menulist {
+        font-size: 3vw;
+    }
+
+    .side h1 {
+        color: white;
+        font-size: 10vw;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    
+    .side h2 {
+        font-size: 6vw;
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+    .dialogbox{
+        position: absolute;
+        bottom: 10%;
+        left: 15%;
+        z-index: 0;
+    }
+
+    .dialogbox img{
+        height:15vw;
+        width:35vw;
+        min-height: 5vw;
+        min-width: 13vw;
+        transform: scaleX(-1);
+    
+    }
+    .textcolor{
+        font-size: 2.8vw; 
+        bottom:12%;
+        left:4%;
+    
+    }
+    
+    .textcolor span {
+        font-size: 2.8vw;
+    }
+
+
+    .navicon{
+        font-size:4vw;
+    }
+    .navicon a:hover{
+        color:#4DDA56;
+    }
+    
+    .facebooki {
+
+        color:#ffffff;
+    }
+      
+    .instai {
+
+        color:#ffffff;
+    }
+      
+    .githubi {
+
+        color:#ffffff;
+    }
+
+    .about{
+    
+        height:120vw;
+        width:100%;
+        align-items:flex-start
+
+    }
+    
+    .circle {
+        width: 80vw;
+        height: 80vw;
+        background-color: #4DDA56; 
+        border-radius: 9999px;
+        position:absolute;
+        left:-28%;
+        bottom:-35.5%;
+    }
+    
+    .mascot2{
+        bottom:-1% ;
+        left: -2.15%;    
+    }
+    .mascot2 img{
+        height:55vw;
+        width:55vw;
+    }
+    
+    .location{
+        left: 8%;
+        bottom: 4%;
+        height:7vw;
+        width:32vw;
+    }
+    
+    .icon{
+        font-size: 4vw;
+        margin:10%;
+        color:white;
+        z-index:2;
+    }
+    
+    .location p{
+        font-size: 2vw;
+    }
+
+    .introtext h1{
+        left:10%;
+        top:5%;
+        font-size: 10vw;
+    }
+    .introtext p{
+        font-size: 3vw;
+    }
+    
+    .intro1{
+        position:absolute;
+        left:15%;
+        top:25%;
+        font-size:1vw;
+    }
+    
+    .intro2{
+        position:absolute;
+        display:block;
+        height:41%;
+        width:40%;
+        bottom:20%;
+        left:55%;
+        text-align: right;
+    }    
+
     .textholder{
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
     }
     
     button {
-        width: 20vw;
-	    max-height: 50vw; 
+        width: 40vw;
+	    max-height: 10vw; 
         font-size: 12px;
         margin: 0;
-        margin-top: 0px;
+        margin-top: 15px;
     }
     .siteimg{
         display:flex;
