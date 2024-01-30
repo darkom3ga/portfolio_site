@@ -132,7 +132,7 @@ h2{
 }
 .dialogbox{
     position: absolute;
-    top: 58%;
+    bottom: 25%;
     left: 81%;
     z-index: 0;
 }
@@ -151,6 +151,14 @@ h2{
     bottom:12%;
     left:2%;
 
+}
+
+.textcolor span {
+    color: #47C74F;
+    font-size: 1.4vw;
+    font-family: 'Cascadia Code', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
 }
 
 .about{
@@ -361,29 +369,13 @@ button:hover{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    font-family: 'Cascadia Code', sans-serif;
+    background-color:#4DDA56;
+    text-align:center;
+    padding: 8px;
+    border-top: 3px solid #ffffff;
+}
 
 
 @media (max-width: 768px) {
@@ -394,22 +386,210 @@ button:hover{
         margin-bottom:10%;
         flex-direction:column;
     }
+
+    .home{
+        height:190vw;
+        width:100%;
+        align-items:flex-start
+    }
+    .rectangle{
+        position: absolute;
+        background-color: #4DDA56;
+        left: 0%;
+        top: 75%;
+        width: 100%;
+        height: 25%;
+        z-index: 0;
+    }
+
+    .mascot{
+        left: 30%;
+        z-index: 1;
+    }
+
+    .mascot img {
+        height: 80vw;
+        width: 80vw;
+    }
+
+    .menulist {
+        font-size: 4vw;
+    }
+
+    .side h1 {
+        color: white;
+        font-size: 14vw;
+        font-weight: 400;
+        margin-top: 25%;
+        word-wrap: break-word;
+    }
+    
+    .side h2 {
+        font-size: 8vw;
+        font-weight: 200;
+        word-wrap: break-word;
+    }
+    .dialogbox{
+        position: absolute;
+        bottom: 5%;
+        left: 7%;
+        z-index: 0;
+    }
+
+    .dialogbox img{
+        height:22vw;
+        width:45vw;
+        min-height: 5vw;
+        min-width: 13vw;
+        transform: scaleX(-1);
+    
+    }
+    .textcolor{
+        font-size: 4vw; 
+        bottom:12%;
+        left:4%;
+    
+    }
+    
+    .textcolor span {
+        font-size: 4vw;
+    }
+
+    .nav{
+        left:60%;
+    }
+
+
+    .navicon{
+        font-size:7vw;
+    }
+    .navicon a:hover{
+        color:#4DDA56;
+    }
+    
+    .facebooki {
+
+        color:#ffffff;
+    }
+      
+    .instai {
+
+        color:#ffffff;
+    }
+      
+    .githubi {
+
+        color:#ffffff;
+    }
+
+    .about{
+    
+        height:190vw;
+        width:100%;
+        align-items:flex-start
+
+    }
+    
+    .circle {
+        width: 110vw;
+        height:110vw;
+        background-color: #4DDA56; 
+        border-radius: 9999px;
+        position:absolute;
+        left:-28%;
+        bottom:-35.5%;
+    }
+    
+    .mascot2{
+        bottom:-1% ;
+        left: -2.15%;    
+    }
+    .mascot2 img{
+        height:85vw;
+        width:85vw;
+    }
+    
+    .location{
+        left: 53%;
+        bottom: 10%;
+        height:8vw;
+        width:42vw;
+    }
+    
+    .icon{
+        font-size: 4vw;
+        margin:10%;
+        color:white;
+        z-index:2;
+    }
+    
+    .location p{
+        font-size: 3vw;
+    }
+
+    .introtext h1{
+        left:10%;
+        top:5%;
+        font-size: 10vw;
+    }
+    .intro2 {
+ 
+        height:41%;
+        width:80%;
+        top:25%;
+        left:12%;
+        text-align:left;
+    }    
+
+    .introtext p{
+        font-size: 3.5vw;
+    }
+    
+    .intro1{
+        position:absolute;
+        left:15%;
+        top:15%;
+        font-size:1vw;
+    }
+
+    .projects{
+        height: 150vw;
+        padding-top:15%;
+    }
+    
+    
     .textholder{
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
+    }
+
+    .projects h2 {
+        font-size: 8vw;
+    }
+
+    .projects span {
+        font-size: 10vw;
     }
     
     button {
-        width: 20vw;
-	    max-height: 50vw; 
-        font-size: 12px;
+        width: 45vw;
+	    max-height: 14vw; 
+        font-size: 14px;
         margin: 0;
-        margin-top: 0px;
+        margin-top: 15px;
     }
     .siteimg{
         display:flex;
         flex-direction:column;
         padding:4%;
         margin:0;   
+    }
+
+    .frame {
+        width: 90%;
+        height: 220px;
+    }
+    .blocks{
+        gap: 30px;
     }
 }
